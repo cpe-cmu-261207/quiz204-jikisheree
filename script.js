@@ -6,8 +6,12 @@ const color = document.querySelector('#color')
 
 // define more constants and variables here
 
+const input = length.value
+
 btn_toggle.onclick = () => {
-  // your code here
+  const data = document.createElement('span')
+  let num = 630610765
+  data.innerHTML = num + "SUPARIDA SILPASITH"
 }
 
 // more codes for Search and Reset buttons here
