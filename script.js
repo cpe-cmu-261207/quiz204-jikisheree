@@ -9,9 +9,18 @@ const color = document.querySelector('#color')
 const input = length.value
 
 btn_toggle.onclick = () => {
-  const data = document.createElement('span')
-  let num = 630610765
-  data.innerHTML = num + "SUPARIDA SILPASITH"
+  btn_toggle.innerHTML = "Display Author"
+  let num = 630610765-input;
+  author.innerHTML = num;
 }
+
+// if(btn_toggle.innerHTML === "Display Calculation"){
+//   btn_toggle.innerHTML = "Display Author"
+//   let num = 630610765-input;
+//   author.innerHTML = num;
+// }if(btn_toggle.innerHTML === "Display Author"){
+//   btn_toggle.innerHTML = "Display Calculation"
+//   author.innerHTML = "630610765 SUPARIDA SILPASITH"
+// }
 
 // more codes for Search and Reset buttons here
